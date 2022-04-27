@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32422.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqVsLambdaPerformanceBenchmark", "LinqVsLambdaPerformanceBenchmark\LinqVsLambdaPerformanceBenchmark.csproj", "{4E902095-6BCE-4D52-9113-C8CAC3CEC42D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqVsLambdaPerformanceBenchmark", "src\LinqVsLambdaPerformanceBenchmark.csproj", "{B447A290-FBB4-435C-ADC4-1708474D03AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E902095-6BCE-4D52-9113-C8CAC3CEC42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E902095-6BCE-4D52-9113-C8CAC3CEC42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E902095-6BCE-4D52-9113-C8CAC3CEC42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E902095-6BCE-4D52-9113-C8CAC3CEC42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B447A290-FBB4-435C-ADC4-1708474D03AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B447A290-FBB4-435C-ADC4-1708474D03AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B447A290-FBB4-435C-ADC4-1708474D03AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B447A290-FBB4-435C-ADC4-1708474D03AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
