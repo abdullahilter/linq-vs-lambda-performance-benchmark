@@ -12,7 +12,7 @@ public class QueryBenchmark
     public void GlobalSetup()
     {
         var userFaker = new Faker<User>()
-            .RuleFor(x => x.Id, Guid.NewGuid())
+            .RuleFor(x => x.Id, f => Guid.NewGuid())
             .RuleFor(x => x.Name, f => f.Person.FirstName)
             .RuleFor(x => x.Surname, f => f.Person.LastName)
             .RuleFor(x => x.FullName, f => f.Person.FullName)
